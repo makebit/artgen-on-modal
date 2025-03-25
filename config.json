@@ -1,0 +1,365 @@
+{
+    "tokens": {
+        "civitai": ""
+    },
+    "models": {
+        "hf": [
+            {
+                "type": "checkpoints",
+                "name": "flux1-schnell",
+                "repo_id": "Comfy-Org/flux1-schnell",
+                "filename": "flux1-schnell-fp8.safetensors"
+            },
+            {
+                "type": "checkpoints",
+                "name": "svd-model",
+                "repo_id": "stabilityai/stable-video-diffusion-img2vid",
+                "filename": "svd.safetensors"
+            },
+            {
+                "type": "checkpoints",
+                "name": "dark_sushi_mix",
+                "repo_id": "mdl-mirror/dark-sushi-mix",
+                "filename": "darkSushiMixMix_brighter.safetensors"
+            },
+            {
+                "type": "checkpoints",
+                "name": "sd_15",
+                "repo_id": "genai-archive/stable-diffusion-v1-5",
+                "filename": "v1-5-pruned-emaonly.fp16.safetensors"
+            },
+            {
+                "type": "checkpoints",
+                "name": "sd_xl_turbo",
+                "repo_id": "stabilityai/sdxl-turbo",
+                "filename": "sd_xl_turbo_1.0.safetensors"
+            },
+            {
+                "type": "checkpoints",
+                "name": "sd_xl_turbo_fp16",
+                "repo_id": "stabilityai/sdxl-turbo",
+                "filename": "sd_xl_turbo_1.0_fp16.safetensors"
+            },
+            {
+                "type": "checkpoints",
+                "name": "sd_xl",
+                "repo_id": "stabilityai/stable-diffusion-xl-base-1.0",
+                "filename": "sd_xl_base_1.0.safetensors"
+            },
+            {
+                "type": "checkpoints",
+                "name": "sd_xl_vae",
+                "repo_id": "stabilityai/stable-diffusion-xl-base-1.0",
+                "filename": "sd_xl_base_1.0_0.9vae.safetensors"
+            },
+            {
+                "type": "checkpoints",
+                "name": "sd_2_inpainting",
+                "repo_id": "stabilityai/stable-diffusion-2-inpainting",
+                "filename": "512-inpainting-ema.safetensors"
+            },
+            {
+                "type": "checkpoints",
+                "name": "sd_21",
+                "repo_id": "stabilityai/stable-diffusion-2-1",
+                "filename": "v2-1_768-ema-pruned.ckpt"
+            },
+            {
+                "type": "checkpoints",
+                "name": "anything_v3",
+                "repo_id": "admruul/anything-v3.0",
+                "filename": "Anything-V3.0.ckpt"
+            },
+            {
+                "type": "checkpoints",
+                "name": "rev_animated_v122",
+                "repo_id": "s6yx/ReV_Animated",
+                "filename": "rev_1.2.2/rev_1.2.2.safetensors"
+            },
+            {
+                "type": "gligen",
+                "name": "sd_1_4_textbox",
+                "repo_id": "comfyanonymous/GLIGEN_pruned_safetensors",
+                "filename": "gligen_sd14_textbox_pruned.safetensors"
+            },
+            {
+                "type": "loras",
+                "name": "moxin_v1",
+                "repo_id": "CHENwood/feelu",
+                "filename": "MoXinV1.safetensors"
+            },
+            {
+                "type": "animatediff_models",
+                "name": "v3_sd15_mm",
+                "repo_id": "guoyww/animatediff",
+                "filename": "v3_sd15_mm.ckpt"
+            },
+            {
+                "type": "vae",
+                "name": "ft_mse_840000_ema_pruned_ckpt",
+                "repo_id": "stabilityai/sd-vae-ft-mse-original",
+                "filename": "vae-ft-mse-840000-ema-pruned.ckpt"
+            },
+            {
+                "type": "vae",
+                "name": "ft_mse_840000_ema_pruned_safetensors",
+                "repo_id": "stabilityai/sd-vae-ft-mse-original",
+                "filename": "vae-ft-mse-840000-ema-pruned.safetensors"
+            },
+            {
+                "type": "vae",
+                "name": "wan_2_1",
+                "repo_id": "Comfy-Org/Wan_2.1_ComfyUI_repackaged",
+                "filename": "split_files/vae/wan_2.1_vae.safetensors"
+            },
+            {
+                "type": "text_encoders",
+                "name": "umt5",
+                "repo_id": "Comfy-Org/Wan_2.1_ComfyUI_repackaged",
+                "filename": "split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors"
+            },
+            {
+                "type": "diffusion_models",
+                "name": "wan_2_1_t2v",
+                "repo_id": "Comfy-Org/Wan_2.1_ComfyUI_repackaged",
+                "filename": "split_files/diffusion_models/wan2.1_t2v_1.3B_fp16.safetensors"
+            },
+            {
+                "type": "diffusion_models",
+                "name": "wan_2_1_i2v_480",
+                "repo_id": "Comfy-Org/Wan_2.1_ComfyUI_repackaged",
+                "filename": "split_files/diffusion_models/wan2.1_i2v_480p_14B_fp16.safetensors"
+            },
+            {
+                "type": "diffusion_models",
+                "name": "wan_2_1_i2v_720",
+                "repo_id": "Comfy-Org/Wan_2.1_ComfyUI_repackaged",
+                "filename": "split_files/diffusion_models/wan2.1_i2v_720p_14B_fp16.safetensors"
+            },
+            {
+                "type": "clip_vision",
+                "name": "clip_vision_h",
+                "repo_id": "Comfy-Org/Wan_2.1_ComfyUI_repackaged",
+                "filename": "split_files/clip_vision/clip_vision_h.safetensors"
+            },
+            {
+                "type": "controlnet",
+                "name": "depth",    
+                "repo_id": "webui/ControlNet-modules-safetensors",
+                "filename": "control_depth-fp16.safetensors"
+            },
+            {
+                "type": "controlnet",
+                "name": "v11e_sd15_ip2p",
+                "repo_id": "lllyasviel/ControlNet-v1-1",
+                "filename": "control_v11e_sd15_ip2p.pth"
+            },
+            {
+                "type": "controlnet",
+                "name": "v11e_sd15_ip2p",
+                "repo_id": "lllyasviel/ControlNet-v1-1",
+                "filename": "control_v11e_sd15_ip2p.yaml"
+            },
+            {
+                "type": "controlnet",
+                "name": "v11e_sd15_shuffle",
+                "repo_id": "lllyasviel/ControlNet-v1-1",
+                "filename": "control_v11e_sd15_shuffle.pth"
+            },
+            {
+                "type": "controlnet",
+                "name": "v11e_sd15_shuffle",
+                "repo_id": "lllyasviel/ControlNet-v1-1",
+                "filename": "control_v11e_sd15_shuffle.yaml"
+            },
+            {
+                "type": "controlnet",
+                "name": "v11f1e_sd15_tile",
+                "repo_id": "lllyasviel/ControlNet-v1-1",
+                "filename": "control_v11f1e_sd15_tile.pth"
+            },
+            {
+                "type": "controlnet",
+                "name": "v11f1e_sd15_tile",
+                "repo_id": "lllyasviel/ControlNet-v1-1",
+                "filename": "control_v11f1e_sd15_tile.yaml"
+            },
+            {
+                "type": "controlnet",
+                "name": "v11f1p_sd15_depth",
+                "repo_id": "lllyasviel/ControlNet-v1-1",
+                "filename": "control_v11f1p_sd15_depth.pth"
+            },
+            {
+                "type": "controlnet",
+                "name": "v11f1p_sd15_depth",
+                "repo_id": "lllyasviel/ControlNet-v1-1",
+                "filename": "control_v11f1p_sd15_depth.yaml"
+            },
+            {
+                "type": "controlnet",
+                "name": "v11p_sd15_canny",
+                "repo_id": "lllyasviel/ControlNet-v1-1",
+                "filename": "control_v11p_sd15_canny.pth"
+            },
+            {
+                "type": "controlnet",
+                "name": "v11p_sd15_canny",
+                "repo_id": "lllyasviel/ControlNet-v1-1",
+                "filename": "control_v11p_sd15_canny.yaml"
+            },
+            {
+                "type": "controlnet",
+                "name": "v11p_sd15_inpaint",
+                "repo_id": "lllyasviel/ControlNet-v1-1",
+                "filename": "control_v11p_sd15_inpaint.pth"
+            },
+            {
+                "type": "controlnet",
+                "name": "v11p_sd15_inpaint",
+                "repo_id": "lllyasviel/ControlNet-v1-1",
+                "filename": "control_v11p_sd15_inpaint.yaml"
+            },
+            {
+                "type": "controlnet",
+                "name": "v11p_sd15_lineart",
+                "repo_id": "lllyasviel/ControlNet-v1-1",
+                "filename": "control_v11p_sd15_lineart.pth"
+            },
+            {
+                "type": "controlnet",
+                "name": "v11p_sd15_lineart",
+                "repo_id": "lllyasviel/ControlNet-v1-1",
+                "filename": "control_v11p_sd15_lineart.yaml"
+            },
+            {
+                "type": "controlnet",
+                "name": "v11p_sd15_mlsd",
+                "repo_id": "lllyasviel/ControlNet-v1-1",
+                "filename": "control_v11p_sd15_mlsd.pth"
+            },
+            {
+                "type": "controlnet",
+                "name": "v11p_sd15_mlsd",
+                "repo_id": "lllyasviel/ControlNet-v1-1",
+                "filename": "control_v11p_sd15_mlsd.yaml"
+            },
+            {
+                "type": "controlnet",
+                "name": "v11p_sd15_normalbae",
+                "repo_id": "lllyasviel/ControlNet-v1-1",
+                "filename": "control_v11p_sd15_normalbae.pth"
+            },
+            {
+                "type": "controlnet",
+                "name": "v11p_sd15_normalbae",
+                "repo_id": "lllyasviel/ControlNet-v1-1",
+                "filename": "control_v11p_sd15_normalbae.yaml"
+            },
+            {
+                "type": "controlnet",
+                "name": "v11p_sd15_openpose",
+                "repo_id": "lllyasviel/ControlNet-v1-1",
+                "filename": "control_v11p_sd15_openpose.pth"
+            },
+            {
+                "type": "controlnet",
+                "name": "v11p_sd15_openpose",
+                "repo_id": "lllyasviel/ControlNet-v1-1",
+                "filename": "control_v11p_sd15_openpose.yaml"
+            },
+            {
+                "type": "controlnet",
+                "name": "v11p_sd15_scribble",
+                "repo_id": "lllyasviel/ControlNet-v1-1",
+                "filename": "control_v11p_sd15_scribble.pth"
+            },
+            {
+                "type": "controlnet",
+                "name": "v11p_sd15_scribble",
+                "repo_id": "lllyasviel/ControlNet-v1-1",
+                "filename": "control_v11p_sd15_scribble.yaml"
+            },
+            {
+                "type": "controlnet",
+                "name": "v11p_sd15_seg",
+                "repo_id": "lllyasviel/ControlNet-v1-1",
+                "filename": "control_v11p_sd15_seg.pth"
+            },
+            {
+                "type": "controlnet",
+                "name": "v11p_sd15_seg",
+                "repo_id": "lllyasviel/ControlNet-v1-1",
+                "filename": "control_v11p_sd15_seg.yaml"
+            },
+            {
+                "type": "controlnet",
+                "name": "v11p_sd15_softedge",
+                "repo_id": "lllyasviel/ControlNet-v1-1",
+                "filename": "control_v11p_sd15_softedge.pth"
+            },
+            {
+                "type": "controlnet",
+                "name": "v11p_sd15_softedge",
+                "repo_id": "lllyasviel/ControlNet-v1-1",
+                "filename": "control_v11p_sd15_softedge.yaml"
+            },
+            {
+                "type": "controlnet",
+                "name": "v11p_sd15_seg",
+                "repo_id": "lllyasviel/ControlNet-v1-1",
+                "filename": "control_v11p_sd15s2_lineart_anime.pth"
+            },
+            {
+                "type": "controlnet",
+                "name": "v11p_sd15_softedge",
+                "repo_id": "lllyasviel/ControlNet-v1-1",
+                "filename": "control_v11p_sd15s2_lineart_anime.yaml"
+            }
+        ],
+        "civitai": [
+            {
+                "type": "checkpoints",
+                "name": "juggernaut_xl",
+                "url": "https://civitai.com/models/133005?modelVersionId=782002",
+                "filename": "juggernautXL_juggXIByRundiffusion.safetensors"
+            },
+            {
+                "type": "checkpoints",
+                "name": "dreamshaper_8",
+                "url": "https://civitai.com/models/4384?modelVersionId=128713",
+                "filename": "dreamshaper_8.safetensors"
+            },
+            {
+                "type": "checkpoints",
+                "name": "epicrealism",
+                "url": "https://civitai.com/models/25694?modelVersionId=143906",
+                "filename": "epicrealism_naturalSinRC1VAE.safetensors"
+            },
+            {
+                "type": "loras",
+                "name": "blindbox_v1",
+                "url": "https://civitai.com/models/25995?modelVersionId=32988",
+                "filename": "blindbox_v1_mix.safetensors"
+            },
+            {
+                "type": "checkpoints",
+                "name": "helloworldxl",
+                "url": "https://civitai.com/models/43977?modelVersionId=570138",
+                "filename": "leosamsHelloworldXL_helloworldXL70.safetensors"
+            },
+            {
+                "type": "checkpoints",
+                "name": "aZovyaPhotoreal",
+                "url": "https://civitai.com/models/57319?modelVersionId=605556",
+                "filename": "aZovyaPhotoreal_v3VAE.safetensors"
+            },
+            {
+                "type": "checkpoints",
+                "name": "aZovyaRPGArtistTools",
+                "url": "https://civitai.com/models/8124?modelVersionId=251729",
+                "filename": "aZovyaRPGArtistTools_v4VAE.safetensors"
+            }
+        ]
+    }
+}
