@@ -78,6 +78,27 @@ image = (
         "comfy node install deforum-comfy-nodes"
     )
     .run_commands(
+        "comfy node install comfyui_ipadapter_plus@2.0.0"
+    )
+    .run_commands(
+        "comfy node install efficiency-nodes-comfyui@1.0.5"
+    )
+    .run_commands(
+        "comfy node install comfyui-kjnodes@1.0.8"
+    )
+    .run_commands(
+        "comfy node install facerestore_cf"
+    )
+    .run_commands(
+        "comfy node install mikey_nodes@1.0.4"
+    )
+    .run_commands(
+        "comfy node install comfyui-jakeupgrade@1.9.7"
+    )
+    .run_commands(
+        "comfy node install comfyui-reactor-node@0.5.2-a2"
+    )    
+    .run_commands(
         "pip install --upgrade colorama==0.4.6 diffusers[torch]==0.32.2 keyframed==0.3.15 toolz==1.0.0 huggingface-hub==0.29.3"
     )
 
