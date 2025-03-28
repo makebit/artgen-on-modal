@@ -89,10 +89,28 @@
                 "filename": "MoXinV1.safetensors"
             },
             {
+                "type": "loras",
+                "name": "lcm-lora-sdv1-5",
+                "repo_id": "latent-consistency/lcm-lora-sdv1-5",
+                "filename": "pytorch_lora_weights.safetensors"
+            },
+            {
                 "type": "animatediff_models",
                 "name": "v3_sd15_mm",
                 "repo_id": "guoyww/animatediff",
                 "filename": "v3_sd15_mm.ckpt"
+            },
+            {
+                "type": "animatediff_models",
+                "name": "mm-Stabilized_high.pth",
+                "repo_id": "manshoety/AD_Stabilized_Motion",
+                "filename": "mm-Stabilized_high.pth"
+            },
+            {
+                "type": "animatediff_models",
+                "name": "mm-Stabilized_mid.pth",
+                "repo_id": "manshoety/AD_Stabilized_Motion",
+                "filename": "mm-Stabilized_mid.pth"
             },
             {
                 "type": "vae",
@@ -359,6 +377,12 @@
                 "name": "aZovyaRPGArtistTools",
                 "url": "https://civitai.com/models/8124?modelVersionId=251729",
                 "filename": "aZovyaRPGArtistTools_v4VAE.safetensors"
+            },
+            {
+                "type": "upscale_models",
+                "name": "4x-Ultrasharp",
+                "url": "https://civitai.com/models/116225?modelVersionId=125843",
+                "filename": "4xUltrasharp_4xUltrasharpV10.pt"
             }
         ]
     }
