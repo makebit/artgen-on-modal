@@ -38,6 +38,7 @@ def hf_download():
 
     for model in models['hf']:
         model_path = hf_hub_download(
+            repo_type=model['repo_type'],
             repo_id=model['repo_id'],
             filename=model['filename'],
             cache_dir="/cache",

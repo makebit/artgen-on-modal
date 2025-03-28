@@ -83,7 +83,7 @@ image = (
 
     # create folders for models
     .run_commands(
-        "cd /root/comfy/ComfyUI/models && mkdir -p animatediff_models animatediff_motion_lora checkpoints clip clip_vision configs controlnet diffusers diffusion_models embeddings gligen hypernetworks loras photomaker style_models text_encoders unet upscale_models vae vae_approx"
+        "cd /root/comfy/ComfyUI/models && mkdir -p animatediff_models animatediff_motion_lora checkpoints clip clip_vision configs controlnet diffusers diffusion_models embeddings facerestore_models gligen hypernetworks loras photomaker style_models text_encoders unet upscale_models vae vae_approx"
     )
     
     # Add .run_commands(...) calls for any other custom nodes you want to download
@@ -99,6 +99,7 @@ def hf_download():
 
     for model in models['hf']:
         model_path = hf_hub_download(
+            repo_type=model['repo_type'],
             repo_id=model['repo_id'],
             filename=model['filename'],
             cache_dir="/data",
